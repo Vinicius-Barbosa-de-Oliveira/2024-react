@@ -1,6 +1,6 @@
-const meubotao = () => {
+const meubotao = (props:any) => {
     return (
-        <button>meu botao</button>
+        <button>{props.titulo}</button>
     );
 }
 
@@ -10,10 +10,10 @@ const App = () => {
         <h1>Bem vindo ao mundo React</h1>
         <button>eu sou um botão html</button>
 
-        
-        <meubotao/>
-        <meubotao/>
-        <meubotao/>
+
+        <meubotao titulo="um"/>
+        <meubotao titulo="dois"/>
+        <meubotao titulo="tres"/>
       </div>
 
 
