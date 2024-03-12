@@ -1,4 +1,4 @@
-const meubotao = (props : any) => {
+const Meubotao = (props : any) => {
     return (
         <button>{props.titulo}</button>
     );
@@ -11,9 +11,9 @@ const App = () => {
         <button>eu sou um botão html</button>
 
 
-        <meubotao titulo="um" />
-        <meubotao titulo="dois" />
-        <meubotao titulo="tres" />
+        <Meubotao titulo="um" />
+        <Meubotao titulo="dois" />
+        <Meubotao titulo="tres" />
       </div>
 
 
