@@ -11,13 +11,12 @@ const App = () => {
         <button>eu sou um botão html</button>
 
 
-        <meubotao titulo="um"/>
-        <meubotao titulo="dois"/>
-        <meubotao titulo="tres"/>
+        <meubotao titulo="um" />
+        <meubotao titulo="dois" />
+        <meubotao titulo="tres" />
       </div>
 
 
     );
   }
-
   export default App;
