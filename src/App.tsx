@@ -1,4 +1,4 @@
-const meubotao = (props:any) => {
+const meubotao = (props: any) => {
     return (
         <button>{props.titulo}</button>
     );
